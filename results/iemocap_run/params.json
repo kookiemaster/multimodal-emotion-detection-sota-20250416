@@ -1,0 +1,16 @@
+{
+    "csv_path": "/home/ubuntu/upload/IEMOCAP_Final.csv",
+    "output_dir": "/home/ubuntu/multimodal-emotion-detection-sota-20250416/results/iemocap_run",
+    "model_name": "bert-base-uncased",
+    "num_classes": 8,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "fusion_weight": 0.5,
+    "modality_weights": "(0.25, 0.25)",
+    "num_epochs": 3,
+    "patience": 2,
+    "max_samples": 500,
+    "use_audio": true,
+    "device": "cpu"
+}
