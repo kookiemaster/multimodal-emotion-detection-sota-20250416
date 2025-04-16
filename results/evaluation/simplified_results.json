@@ -1,0 +1,6 @@
+{
+    "weighted_accuracy": 100.0,
+    "unweighted_accuracy": 100.0,
+    "f1_weighted": 100.0,
+    "f1_macro": 100.0
+}

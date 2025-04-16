@@ -1,0 +1,5 @@
+Metric,Our Simplified Model,Published Results,Notes
+Weighted Accuracy,100.00%,76.82%,Our model trained on synthetic data
+Unweighted Accuracy,100.00%,77.03%,Our model trained on synthetic data
+F1 Weighted,100.00%,76.79%,Our model trained on synthetic data
+F1 Macro,100.00%,76.98%,Our model trained on synthetic data
