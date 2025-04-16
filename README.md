@@ -5,6 +5,15 @@ This repository contains implementations of state-of-the-art multimodal emotion 
 1. **MemoCMT**: A cross-modal transformer-based approach (2025)
 2. **SDT**: A self-distillation transformer approach (2024)
 
+## Overview
+
+This project implements multimodal emotion detection systems that leverage both text and voice inputs to recognize emotions. By combining these modalities, the systems achieve more robust and accurate emotion recognition compared to single-modality approaches.
+
+The implementations focus on:
+- **Text Modality**: Using state-of-the-art language models
+- **Voice Modality**: Using advanced audio processing architectures
+- **Fusion Strategies**: Implementing cross-modal transformers and self-distillation approaches
+
 ## Project Structure
 
 ```
@@ -74,6 +83,24 @@ The Multimodal EmotionLines Dataset (MELD) contains more than 1400 dialogue inst
 
 The Emotional Speech Database (ESD) is used alongside IEMOCAP in the MemoCMT paper.
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/kookiemaster/multimodal-emotion-detection-sota-20250416.git
+cd multimodal-emotion-detection-sota-20250416
+```
+
+2. Install dependencies:
+```bash
+pip install torch transformers librosa numpy pandas scikit-learn matplotlib
+```
+
+3. Set up environment variables (optional):
+```bash
+export HF_TOKEN=your_huggingface_token
+```
+
 ## Implementation Strategy
 
 We are implementing these models in the following order:
@@ -98,3 +125,9 @@ For detailed information about the selected models and rationale, see [selected_
 ## License
 
 This project is for research purposes only. All implementations are based on the original papers and repositories, with appropriate citations.
+
+## Acknowledgements
+
+- The original authors of MemoCMT and SDT for their research contributions
+- HuggingFace for providing pre-trained models
+- Various open-source libraries used in this project
